@@ -1,0 +1,31 @@
+{
+  "name": "rimu-basic-layout",
+  "author": "Stuart Rackham <srackham@gmail.com>",
+  "version": "1.0.0",
+  "description": "Minimal HTML5 layout for Rimu Markup",
+  "license": "MIT",
+  "keywords": [
+    "rimu",
+    "markup",
+    "rimuc",
+    "layout"
+  ],
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "header.rmu",
+    "footer.rmu"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srackham/rimu-basic-layout.git"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  }
+}

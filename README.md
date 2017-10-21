@@ -1,4 +1,4 @@
-# Rimu Markup Basic layout
+# Rimu Markup Basic Layout
 
 A minimal unstyled HTML5 layout for the _Rimu Markup_
 [rimuc](http://rimumarkup.org/reference.html#rimuc-command) command.
@@ -32,14 +32,14 @@ attributes, `header` and `footer`, which return the Rimu header markup
 and footer markup respectively.
 
 
-## Implementation
+## Creating new layouts
 Creating a new layout is straightforward:
 
 1. Clone the `rimu-basic-layout` [Github
    project](https://github.com/srackham/rimu-basic-layout.git).
 2. Replace or edit `header.rmu` and `footer.rmu` files.
-3. Edit `package.json` to reflect the new layout name, Github
-   repository, author etc.
+3. Edit `package.json` and `README.md` to reflect the new layout name,
+   Github repository, author etc.
 
 For more complex header and footer examples take a look at the `rimuc`
 built-in layouts [header and footer

@@ -26,6 +26,9 @@
     "tape": "^4.8.0"
   },
   "scripts": {
+    "publish": "npm run test && npm run push && npm publish",
+    "push": "git push -u --tags origin master",
+    "tag": "npm version -m \"Tag %s\"",
     "test": "tape test.js"
   }
 }

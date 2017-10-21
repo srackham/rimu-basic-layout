@@ -9,7 +9,8 @@
 {--head?} = ''
 
 <!DOCTYPE html>
-<html lang="{--lang}">
+{--lang=}<html>
+{--lang!}<html lang="{--lang}">
 <head>
 {--meta}
 <title>{--title}</title>

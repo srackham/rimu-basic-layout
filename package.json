@@ -27,7 +27,7 @@
   },
   "scripts": {
     "// Run tests, push to Github then publish to npmjs.org": "",
-    "publish": "npm run test && npm run push && npm publish",
+    "release": "npm run test && npm run push && npm publish",
     "push": "git push -u --tags origin master",
     "// Update package.json version number and create Git tag e.g. npm run tag 1.0.1": "",
     "tag": "npm version -m \"Tag %s\"",

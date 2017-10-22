@@ -1,5 +1,5 @@
 {
-  "name": "rimu-basic-layout",
+  "name": "rimu-plain-layout",
   "author": "Stuart Rackham <srackham@gmail.com>",
   "version": "0.0.1",
   "description": "Minimal HTML5 layout for Rimu Markup",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/srackham/rimu-basic-layout.git"
+    "url": "https://github.com/srackham/rimu-plain-layout.git"
   },
   "devDependencies": {
     "tape": "^4.8.0"

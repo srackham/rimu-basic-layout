@@ -1,5 +1,5 @@
 /*
-  Used by rimuc `--layout basic` option.
+  Used by rimuc `--layout plain` option.
 */
 
 {--lang?} = ''

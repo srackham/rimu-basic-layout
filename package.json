@@ -1,7 +1,7 @@
 {
   "name": "rimu-plain-layout",
   "author": "Stuart Rackham <srackham@gmail.com>",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Minimal HTML5 layout for Rimu Markup",
   "license": "MIT",
   "keywords": [

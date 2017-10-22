@@ -17,15 +17,16 @@ This package is also serves as a template for creating new layouts.
 
 ## Usage
 Once this package has been installed then you can use the `rimuc`
-command `--layout plain` option to create plain HTML5 pages from Rimu
-markup.  The following example generates `mydocument.html`:
+command `--layout plain` option to create unstyled HTML5 documents
+from Rimu markup. The following example generates an HTML5 file
+named `mydocument.html`:
 
     rimuc --layout plain mydocument.rmu
 
 
 ## How it works
 When `--layout <layout-name>` option is specified `rimuc` searches for
-a built-in layout with the same name. If it's not found then it
+a built-in layout with the same name. If it's not found then `rimuc`
 attempts to import a nodejs module named `rimu-<layout-name>-layout`
 (in this case `rimu-plain-layout`). The imported module contains two
 attributes, `header` and `footer`, which return the Rimu header markup
